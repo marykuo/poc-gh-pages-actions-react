@@ -55,7 +55,7 @@ npm create vite@latest your-project-name -- --template react-swc
 ```javascript
 export default {
   // your repository name
-  base: "/your-project-name",
+  base: "/your-project-name/",
 };
 ```
 
