@@ -1,7 +1,7 @@
 import { Suspense, lazy } from "react";
 import { HashRouter, Routes, Route, Link } from "react-router-dom";
 import PageLoader from "./components/PageLoader";
-import "./App.css";
+import "./styles/App.css";
 
 // use lazy loading for better performance
 const Home = lazy(() => import("./pages/Home"));
